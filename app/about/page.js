@@ -64,7 +64,7 @@ const page = () => {
         <div className={` text-lg  text-center lg:w-1/2 `}>
           <h4 className='text-xl font-bold pb-4'>My Story</h4>
           <p className='text-left'>
-            In 2021, I began my journey as a web developer with the aim of creating a website for my leather business. I wanted a site that was easy to use and update but also visually appealing to my target audience. While using Square Space, I found that the platform did not provide the simplicity I was looking for in a website. As I did nott require an e-commerce website, my main goal was to showcase my work and explain the process of creating bespoke leather goods. This inspired me to learn more about web development through online courses on Udemy and other platforms.
+            In 2021, I began my journey as a web developer with the aim of creating a website for my leather business. I wanted a site that was easy to use and update but also visually appealing to my target audience. While using Square Space, I found that the platform did not provide the simplicity I was looking for in a website. As I did not require an e-commerce website, my main goal was to showcase my work and explain the process of creating bespoke leather goods. This inspired me to learn more about web development through online courses on Udemy and other platforms.
           </p>
           <br/>
           <p className='text-left pb-4'>
