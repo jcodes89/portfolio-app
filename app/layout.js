@@ -1,5 +1,5 @@
 import { Inter, Roboto, Montserrat, Titillium_Web } from "next/font/google";
-
+import TopBtn from '@/app/components/BackToTopBtn'
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
       <body className={`${titillium.className} h-screen w-full`}>
       <span className='h-screen w-full bg-hero-pattern bg-cover bg-center absolute z-0'/>
         <Navbar/>
+        <TopBtn/>
         {children}
       </body>
     </html>
