@@ -50,8 +50,8 @@ const page = () => {
           <h2 className='font-bold text-4xl lg:text-5xl'>About Me</h2>
         </div>
         <div id='aboutHead' className={`${styles.aboutHeader} aboutText text-left  p-4 rounded-md shadow-md shadow-primary `}>
-          <h3 className={` text-xl md:text-2xl lg:text-2xl py-3`}>I am a Web Developer based in Florida</h3>
-          <p className='text-base md:text-lg lg:text-xl'>I created my first web site in 2021 and fell in love with the process.  I enjoy creating lasting unique experiences and continuing to gain knowledge and experience as a Web Developer.  </p>
+          <h3 className={` text-2xl  lg:text-2xl py-3`}>I am a <span className='font-bold text-accent'>Web Developer</span> based in Florida</h3>
+          <p className='text-lg md:text-lg lg:text-xl'>I created my first web site in 2021 and fell in love with the process.  I enjoy creating lasting unique experiences and continuing to gain knowledge and experience as a Web Developer.  </p>
         </div>
       </div>
 
@@ -61,18 +61,14 @@ const page = () => {
     </main>
     <section className='relative z-30  bg-gray-50 h-fit w-full pt-10 '>
       <div  className={` relative z-30  text-primary bg-gray-50  pt-0 p-5 w-full lg:flex lg:flex-col lg:items-center`}>
-        <div className={`  text-center lg:w-1/2 `}>
+        <div className={` text-lg  text-center lg:w-1/2 `}>
           <h4 className='text-xl font-bold pb-4'>My Story</h4>
           <p className='text-left'>
-            My journey as a Web Developer started back in 2021 when I first wanted to make my own website for my leather buisness.
-            I was currently using squarespace but it lacked the simplistic nature which I wanted for a website. The main goal for my Davinch Leather website was to showcase
-            my work and describe the process of how I create custom leather products.  This prompted me to start learning from Udemy and other sites which led me down the rabbit hole.  
+            In 2021, I began my journey as a web developer with the aim of creating a website for my leather business. I wanted a site that was easy to use and update but also visually appealing to my target audience. While using Square Space, I found that the platform did not provide the simplicity I was looking for in a website. As I did nott require an e-commerce website, my main goal was to showcase my work and explain the process of creating bespoke leather goods. This inspired me to learn more about web development through online courses on Udemy and other platforms.
           </p>
           <br/>
           <p className='text-left pb-4'>
-            Looking back now, my Davinch website was nothing spectacular but building and creating 
-            that website ignited a spark.  I have been constantly learning and growing since I started in 2021 and the passion to create has only grown.
-            I am currently working as a Paramedic/Firefighter in Tampa, Fl but look forward to starting a career as a developer.
+            Looking back, my Davinch Leather website was not anything exceptional, but it ignited a spark within me to create and learn more. Since then, I have been constantly growing and improving my skills as a web developer. Currently, I work as a Paramedic/Firefighter in Tampa, FL, but I am excited to pursue a career in web development.
           </p>
         </div>
       </div>
@@ -82,7 +78,7 @@ const page = () => {
             When I am not coding
           </h5>
         <div className=''>
-          <ul>
+          <ul className='text-lg'>
             <li>Hanging with the Wife</li>
             <li>Longboarding</li>
             <li>Leather Working</li>
