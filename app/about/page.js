@@ -99,12 +99,12 @@ const page = () => {
       </div>
 
     </section>
-    <section className='hfit w-full  text-center bg-primary py-4'>
+    {/* <section className='hfit w-full  text-center bg-primary py-4'>
       <div className='flex flex-col justify-center items-center text-accent'>
         <p className='lg:hidden text-xl flex  items-center '><MdSwipeRight/><span className='text-sm'>Swipe Right</span></p>
         <h6 className='font-bold text-xl py-2'>Technologies</h6>
       </div>
-      <div className='lg:hidden techContainer flex flex-row overflow-hidden   py-4 text-6xl text-accent w-full h-fit'>
+      <div className='lg:hidden techContainer flex flex-row  py-4 text-6xl text-accent w-full h-fit'>
         <div className='techItems flex flex-row justify-start  cursor-pointer'>
           <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiHtml5/><span className='text-base'>Html</span></div>
           <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiCss3/><span className='text-base'>Css</span></div>
@@ -124,7 +124,7 @@ const page = () => {
         </div>
         
       </div>
-      <div className=' hidden techContainer lg:flex flex-row justify-center  py-4 text-6xl text-accent w-full h-fit'>
+      <div className=' hidden techContainer lg:flex flex-row justify-center overxh  py-4 text-6xl text-accent w-full h-fit'>
         <div className=' flex flex-row  cursor-pointer'>
           <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiHtml5/><span className='text-base'>Html</span></div>
           <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiCss3/><span className='text-base'>Css</span></div>
@@ -146,7 +146,7 @@ const page = () => {
       </div>
       
       
-    </section>
+    </section> */}
 
     </span>
       
