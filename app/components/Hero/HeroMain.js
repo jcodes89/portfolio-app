@@ -71,7 +71,7 @@ const HeroMain = () => {
             <ul className='pb-1'>
               <li className=' text-lg font-bold text-gray-50  lg:text-2xl'> <span className='language'></span> </li>
             </ul>
-            <p className='text-left pt-2 text-gray-200 lg:text-2xl'>Web developer dedicated to crafting seamless, user-centric digital experiences with a focus on precision and innovation.</p>
+            <p className='text-left pt-2 text-gray-50 lg:text-2xl'>Web developer dedicated to crafting seamless, user-centric digital experiences with a focus on precision and innovation.</p>
           </div>
         </div>
       </div>
