@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js" async ></script> 
       </head>
       <body className={`${titillium.className} h-screen w-full`}>
-      <span className='h-full w-full bg-hero-pattern bg-cover bg-center absolute z-0'/>
+      <span className='h-screen w-full bg-hero-pattern bg-cover bg-center absolute z-0'/>
         <Navbar/>
         {children}
       </body>
