@@ -11,7 +11,7 @@ const ReliefStack = [
     },
     {
         id: 3,
-        tech: 'React.js'
+        tech: 'React'
     },
     {
         id: 4,
@@ -19,7 +19,7 @@ const ReliefStack = [
     },
     {
         id: 5,
-        tech: 'Prisma.io'
+        tech: 'Prisma'
     },
     {
         id: 6,
