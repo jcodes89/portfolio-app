@@ -99,7 +99,7 @@ const page = () => {
       </div>
 
     </section>
-    {/* <section className='hfit w-full  text-center bg-primary py-4'>
+    <section className='hfit w-full  text-center bg-primary py-4 overflow-x-hidden overflow-y-hidden'>
       <div className='flex flex-col justify-center items-center text-accent'>
         <p className='lg:hidden text-xl flex  items-center '><MdSwipeRight/><span className='text-sm'>Swipe Right</span></p>
         <h6 className='font-bold text-xl py-2'>Technologies</h6>
@@ -146,7 +146,7 @@ const page = () => {
       </div>
       
       
-    </section> */}
+    </section>
 
     </span>
       
