@@ -26,7 +26,7 @@ const ScrollTopBtn = () => {
   
 
   return (
-    <button onClick={scrollTop} className={ visible ? `z-20 fixed btn  bottom-0 m-2 bg-gray-50 hover:bg-accent text-accent hover:scale-[1.15] hover:text-gray-50` : `hidden`}>
+    <button onClick={scrollTop} className={ visible ? `z-40 fixed btn  bottom-0 m-2 bg-gray-50 hover:bg-accent text-accent hover:scale-[1.15] hover:text-gray-50` : `hidden`}>
         <i className="fa-solid fa-arrow-up-from-bracket scale-[1.5]"></i>
     </button>
   )
