@@ -93,7 +93,7 @@ const WorkHeroCard = (props) => {
   return (
     <div  ref={container}  className='card  lg:w-full  p-0 shadow-md shadow-primary rounded-md my-3 hide hidden -translate-x-[1000px]'>
         <div id='img'  className='projectImage p-0  h-fit w-auto'>
-              <Image src={props.projectImage} className='image rounded-md w-auto h-fit cursor-pointer' alt='Image of different web developer projects'/>
+              <Image src={props.projectImage} className='image rounded-md w-auto  cursor-pointer' alt='Image of different web developer projects'/>
            
           <div  id='hideCard' className={styles.hiddenCard}>
             <div id='hideHead' className={styles.hiddenHeading}>
