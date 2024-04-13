@@ -67,7 +67,7 @@ const HeroMain = () => {
       <div className=' card h-fit w-full lg:w-[75%] xl:w-[50%]'>
         <div id='heroCard' className={`${styles.HeroCard} mx-3`}>
           <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md mt-4 text-accent  '>
-            <h2 className='text-[5rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
+            <h2 className='text-[4rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
             <ul className='pb-1'>
               <li className=' text-lg font-bold text-gray-50  lg:text-2xl'> <span className='language'></span> </li>
             </ul>
