@@ -1,0 +1,76 @@
+
+.hide{
+    display: none;
+    position: absolute;
+    font-size: x-large;
+    top:2rem;
+    left: 5.5rem;
+    rotate: 0deg;
+    color: rgba(238, 124, 37, 1);
+    
+}
+
+.hideLink1{
+    display: none;
+    position: absolute;
+    font-size: x-large;
+    top:2.5rem;
+    right: .5rem;
+    rotate: 0deg;
+    color: white;
+    z-index: 1;
+    color:rgba(238, 124, 37, 1)
+}
+.hideLink2{
+    display: none;
+    position: absolute;
+    font-size: x-large;
+    top: 2.5rem;
+    right: .5rem;
+    rotate: 0deg;
+    color: white;
+    z-index: 1;
+    color:rgba(238, 124, 37, 1)
+}
+.dropDownLink1{
+    display: none;
+    position: relative;
+    font-size: x-large;
+    color: rgba(238, 124, 37, 1);
+}
+.dropDownLink2{
+    
+    position: relative;
+    font-size: x-large;
+    color: rgba(238, 124, 37, 1);
+}
+
+.logo{
+    position: relative;
+    top: .5;
+}
+
+.github{
+    position: relative;
+    top: .5;
+}
+
+.linked{
+    position: relative;
+    top: .5;
+}
+
+.linked:hover + .hideLink1{
+    display: inline-flex;
+}
+
+.github:hover + .hideLink2{
+    display: inline-flex
+}
+
+.logo:hover + .hide {
+    display: inline-flex;
+}
+
+
+/* hide hidden relative top-4 left-0 */
