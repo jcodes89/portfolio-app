@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import portfolioMain from '@/public/Images/portfolio.jpg'
+import portfolioMain from '@/public/images/portfolio.jpg'
 import ProjectMain from '@/app/components/Work/Project/ProjectMain'
 import Portfolio from '@/app/components/Work/PortfolioStack'
 import PortfolioImages from '../../components/Work/Project/PortfolioImageList'

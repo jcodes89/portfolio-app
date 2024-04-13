@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import reliefMain from '@/public/Images/relief.jpg'
+import reliefMain from '@/public/images/relief.jpg'
 import ProjectMain from '@/app/components/Work/Project/ProjectMain'
 import Relief from '@/app/components/Work/ReliefStack'
 import ReliefImages from '../../components/Work/Project/ReliefImageList'
