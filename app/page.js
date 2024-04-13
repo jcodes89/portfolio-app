@@ -7,7 +7,7 @@ import HeroMain from './components/Hero/HeroMain';
 export default function Home() {
   return (
     <>
-    <span className='h-screen w-full bg-hero-pattern bg-cover bg-center absolute z-10 overflow-x-hidden'/>
+    <span className='h-screen w-full bg-hero-pattern bg-cover bg-center absolute z-10'/>
       <HeroMain/>
       
     </>
