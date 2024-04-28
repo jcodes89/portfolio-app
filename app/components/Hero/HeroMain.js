@@ -52,7 +52,7 @@ const HeroMain = () => {
       ease: 'expo',
       boxShadow: '0 10px 15px -3px rgba(1, 105, 153, 1)',
       borderRadius: '0.375rem',
-      backgroundColor: '#F08A3D'
+      
     })
 
     })
@@ -67,7 +67,7 @@ const HeroMain = () => {
     <section ref={container} className=' w-full h-screen flex justify-center items-center absolute z-20 overflow-y-hidden'>
       <div className=' card h-fit w-full lg:w-[75%] xl:w-[50%]'>
         <div id='heroCard' className={`${styles.HeroCard} mx-3`}>
-          <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md mt-4 text-primary'>
+          <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md mt-4 text-accent'>
             <h2 className='text-[4rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
               <ul className='pb-1'>
                 <li className=' text-lg font-bold text-gray-50  lg:text-2xl'> <span className='language'></span> </li>
