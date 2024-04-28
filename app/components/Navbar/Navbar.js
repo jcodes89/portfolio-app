@@ -26,31 +26,28 @@ const Navbar = () => {
 
           <li className=''>
             <div className="dropdown dropdown-bottom dropdown-left md:hidden text-xl flex flex-col justify-center items-middle w-full">
-                <div className='' tabIndex="0"><i className=" focus:rotate-90 after::rotate-90  fa-solid fa-bars cursor-pointer "></i></div>
-              <details className='dropdown'>
-                  <ul tabIndex="0" className="dropdown-content z-[1] menu p-2 shadow-md shadow-primary border-gray-50 bg-primary rounded-box w-18 flex items-center">
-                    <li>
-                      <Link href='/work' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Projects</Link>
-                    </li>
-                    <li>
-                      <Link href='/contact' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Contact</Link>
-                    </li>
-                    <li>
-                      <Link href='/about' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>About</Link>
-                    </li>
-                    <li>
-                      <Link href='/resume' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Resume</Link>
-                    </li>
-                    <li>
-                      <Link href='https://www.linkedin.com/in/jeremy-sluder-0077b099/' target='_blank' className='my-1 hover:bg-accent hover:text-primary'><i className="fa-brands fa-linkedin text-3xl"></i></Link>
-                    </li>
-                    <li>
-                      <Link href='https://github.com/jcodes89' target='_blank' className='hover:bg-accent hover:text-primary'><i className="fa-brands fa-github text-3xl"></i></Link>
-                    </li>                 
-                  </ul>
-              </details>
-              </div>
-
+              <div className='dropdown' tabIndex="0"><i className=" focus:rotate-90 after::rotate-90  fa-solid fa-bars cursor-pointer "></i></div>
+                <ul tabIndex="0" className="dropdown-content z-[1] menu p-2 shadow-md shadow-primary border-gray-50 bg-primary rounded-box w-18 flex items-center">
+                  <li>
+                    <Link href='/work' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Projects</Link>
+                  </li>
+                  <li>
+                    <Link href='/contact' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Contact</Link>
+                  </li>
+                  <li>
+                    <Link href='/about' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>About</Link>
+                  </li>
+                  <li>
+                    <Link href='/resume' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Resume</Link>
+                  </li>
+                  <li>
+                    <Link href='https://www.linkedin.com/in/jeremy-sluder-0077b099/' target='_blank' className='my-1 hover:bg-accent hover:text-primary'><i className="fa-brands fa-linkedin text-3xl"></i></Link>
+                  </li>
+                  <li>
+                    <Link href='https://github.com/jcodes89' target='_blank' className='hover:bg-accent hover:text-primary'><i className="fa-brands fa-github text-3xl"></i></Link>
+                  </li>                 
+                </ul>
+            </div>
             <div className=''>
               <ul className=" hidden md:flex md:flex-row  border-gray-50 text-xl 2xl:text-2xl">
                     <li className='px-2 hover:text-gray-50'>
