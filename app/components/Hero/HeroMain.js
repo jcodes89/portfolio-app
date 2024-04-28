@@ -52,7 +52,7 @@ const HeroMain = () => {
       ease: 'expo',
       boxShadow: '0 10px 15px -3px rgba(1, 105, 153, 1)',
       borderRadius: '0.375rem',
-      backgroundColor: '#598FB2'
+      backgroundColor: '#016999'
     })
 
     })
