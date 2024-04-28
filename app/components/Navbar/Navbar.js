@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import styles from '../../css/nav.module.css'
@@ -7,6 +8,7 @@ const titilliumBold = Titillium_Web({weight: ['900'], subsets: ["latin"] });
 
 
 const Navbar = () => {
+
   return (
     <nav className='h-14 w-full flex flex-row justify-between items-center text-xl font-semibold text-accent md:text-2xl absolute z-50'>
       <div className='header-left pl-4 '>
@@ -25,8 +27,8 @@ const Navbar = () => {
         <ul className='flex'>
 
           <li className=''>
-            <div className="dropdown dropdown-bottom dropdown-left md:hidden text-xl flex flex-col justify-center items-middle w-full">
-              <div className='dropdown' tabIndex="0"><i className=" focus:rotate-90 after::rotate-90  fa-solid fa-bars cursor-pointer "></i></div>
+            <div className="dropdown dropdown-hover dropdown-bottom dropdown-end md:hidden text-xl flex flex-col justify-center items-middle w-full">
+              <div  className='' tabIndex="0"><i className=" focus:rotate-90 after::rotate-90  fa-solid fa-bars cursor-pointer "></i></div>
                 <ul tabIndex="0" className="dropdown-content z-[1] menu p-2 shadow-md shadow-primary border-gray-50 bg-primary rounded-box w-18 flex items-center">
                   <li>
                     <Link href='/work' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Projects</Link>
