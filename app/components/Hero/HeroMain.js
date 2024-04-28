@@ -68,7 +68,7 @@ const HeroMain = () => {
         <div id='heroCard' className={`${styles.HeroCard} mx-3`}>
           <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md mt-4 text-accent'>
             <h2 className='text-[4rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
-            <div className='sm:bg-secondary p-2 rounded-md md:bg-none lg:bg-none xl:bg-none'>
+            <div className='sm:bg-secondary p-2 rounded-md lg:bg-none xl:bg-none'>
               <ul className='pb-1'>
                 <li className=' text-lg font-bold text-gray-50  lg:text-2xl'> <span className='language'></span> </li>
               </ul>
