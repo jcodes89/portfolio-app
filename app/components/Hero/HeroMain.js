@@ -66,15 +66,12 @@ const HeroMain = () => {
     <section ref={container} className=' w-full h-screen flex justify-center items-center absolute z-20 overflow-y-hidden'>
       <div className=' card h-fit w-full lg:w-[75%] xl:w-[50%]'>
         <div id='heroCard' className={`${styles.HeroCard} mx-3`}>
-          <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md mt-4 text-accent'>
+          <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md bg-primary mt-4 text-accent'>
             <h2 className='text-[4rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
-            <div className='sm:bg-secondary p-2 rounded-md lg:bg-none xl:bg-none'>
               <ul className='pb-1'>
                 <li className=' text-lg font-bold text-gray-50  lg:text-2xl'> <span className='language'></span> </li>
               </ul>
               <p className='text-left pt-2 text-gray-50 lg:text-2xl'>Web developer dedicated to crafting seamless, user-centric digital experiences with a focus on precision and innovation.</p>
-
-            </div>
           </div>
         </div>
       </div>
