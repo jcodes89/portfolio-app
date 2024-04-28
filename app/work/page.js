@@ -36,7 +36,7 @@ const page = () => {
 
   return (
     <>
-    <span className='sm:h-[103vh] md:h-[180vh] lg:h-[130vh]   w-full bg-[url("../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.jpg")] bg-cover bg-center absolute z-0'/>
+    <span className='h-[130vh] lg:h-[180vh]   w-full bg-[url("../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.jpg")] bg-cover bg-center absolute z-0'/>
     <main ref={container} className='w-auto h-fit relative top-16 grid grid-cols-1 place-items-center xl:grid-cols-2 xl:gap-3 px-4'>
       <span className=' z-20 h-fit pt-5'>
         <p className='parClick text-white lg:hidden'>Please click any project to learn more!</p>
