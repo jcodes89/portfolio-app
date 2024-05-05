@@ -1,8 +1,5 @@
-export default function Loading() {
+export default function Loading(){
     return(
-        <div>
-            <h2>Loading ...</h2>
-            <p></p>
-        </div>
+        <span className="loading loading-infinity loading-lg"></span>
     )
-  }
+}

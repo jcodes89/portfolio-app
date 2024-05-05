@@ -3,7 +3,8 @@ import React from 'react'
 import Link from 'next/link'
 import styles from '../../css/nav.module.css'
 import {Titillium_Web } from "next/font/google";
-
+import { SlMenu } from "react-icons/sl";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 const titilliumBold = Titillium_Web({weight: ['900'], subsets: ["latin"] });
 
 
@@ -28,7 +29,7 @@ const Navbar = () => {
 
           <li className=''>
             <div className="dropdown dropdown-hover dropdown-bottom dropdown-end md:hidden text-xl flex flex-col justify-center items-middle w-full">
-              <div  className='' tabIndex="0"><i className=" focus:rotate-90 after::rotate-90  fa-solid fa-bars cursor-pointer "></i></div>
+              <div  className='' tabIndex="0"><SlMenu className=" focus:rotate-90 after::rotate-90  fa-solid fa-bars cursor-pointer "></SlMenu></div>
                 <ul tabIndex="0" className="dropdown-content z-[1] menu p-2 shadow-md shadow-primary border-gray-50 bg-primary rounded-box w-18 flex items-center">
                   <li>
                     <Link href='/work' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Projects</Link>
@@ -43,10 +44,10 @@ const Navbar = () => {
                     <Link href='/resume' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Resume</Link>
                   </li>
                   <li>
-                    <Link href='https://www.linkedin.com/in/jeremy-sluder/' target='_blank' className='my-1 hover:bg-accent hover:text-primary'><i className="fa-brands fa-linkedin text-3xl"></i></Link>
+                    <Link href='https://www.linkedin.com/in/jeremy-sluder/' target='_blank' className='my-1 hover:bg-accent hover:text-primary'><FaLinkedin className="text-3xl"></FaLinkedin></Link>
                   </li>
                   <li>
-                    <Link href='https://github.com/jcodes89' target='_blank' className='hover:bg-accent hover:text-primary'><i className="fa-brands fa-github text-3xl"></i></Link>
+                    <Link href='https://github.com/jcodes89' target='_blank' className='hover:bg-accent hover:text-primary'><FaGithubSquare className=" text-3xl"></FaGithubSquare></Link>
                   </li>                 
                 </ul>
             </div>
@@ -64,8 +65,8 @@ const Navbar = () => {
                     <li className='pl-2 pr-3 hover:text-gray-50'>
                       <Link href='/resume' className={styles.linked}>Resume</Link>
                     </li>
-                    <li>
-                      <Link href='https://www.linkedin.com/in/jeremy-sluder-0077b099/' target='_blank' className={styles.linked}><i className="fa-brands fa-linkedin text-2xl px-3 pl-0 hover:text-gray-50 2xl:text-3xl"></i></Link>
+                    <li className='pb-0'>
+                      <Link href='https://www.linkedin.com/in/jeremy-sluder-0077b099/' target='_blank' className={styles.linked}><FaLinkedin className="text-3xl  hover:text-gray-50 2xl:text-3xl"></FaLinkedin></Link>
                       <span className={styles.hideLink1}>
                         <span className={titilliumBold.className}>
                           LinkedIn
@@ -73,7 +74,7 @@ const Navbar = () => {
                       </span>
                     </li>
                     <li>
-                      <Link href='https://github.com/jcodes89' target='_blank' className={styles.github}><i className="fa-brands fa-github text-2xl hover:text-gray-50 2xl:text-3xl"></i></Link>
+                      <Link href='https://github.com/jcodes89' target='_blank' className={styles.github}><FaGithubSquare className="text-3xl ml-2 hover:text-gray-50 2xl:text-3xl"></FaGithubSquare></Link>
                       <span className={styles.hideLink2}>
                         <span className={titilliumBold.className}>
                           Github

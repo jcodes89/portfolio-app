@@ -8,9 +8,6 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import Observer from 'gsap/Observer'
 import styles from '../../css/work-card.module.css'
 
-
-
-
 const WorkHeroCard = (props) => {
   gsap.registerPlugin(ScrollTrigger, Observer)
   const container = useRef()
@@ -51,24 +48,6 @@ const WorkHeroCard = (props) => {
     })
     
 
-    // tl.to('#hide', {
-    //   display: 'flex'
-    // })
-    // const img = document.getElementById('#img')
-    // const hidden = document.getElementById('#hide')
-    
-
-    // window.addEventListener('DOMContentLoaded', (e) => {
-    //   if(img){
-    //     img.addEventListener('mouseenter', () => {
-    //       tl.play()
-    //     })
-
-    //   }
-    
-
-    // })
-
   Observer.create({
     target: '#img',
     type: 'touch, wheel, pointer',
@@ -93,7 +72,7 @@ const WorkHeroCard = (props) => {
   return (
     <div  ref={container}  className='card  lg:w-full  p-0 shadow-md shadow-primary rounded-md my-3 hide hidden -translate-x-[1000px]'>
         <div id='img'  className='projectImage p-0  h-fit w-auto'>
-              <Image src={props.projectImage} className='image rounded-md w-auto cursor-pointer' alt='Image of different web developer projects'/>
+              <Image fetchPriority='high' loading='eager' src={props.projectImage} className='image rounded-md w-auto cursor-pointer' alt='Image of different web developer projects'/>
            
           <div  id='hideCard' className={styles.hiddenCard}>
             <div id='hideHead' className={styles.hiddenHeading}>
@@ -114,44 +93,9 @@ const WorkHeroCard = (props) => {
             </div>
           </div>
         </div>
-        {/* <div id='hidden' className={styles.hide}>
-          <div className=''>
-            <div className='projectHeader border-b-4 border-accent'>
-              <h2 className='my-3 pl-3 text-accent font-bold text-3xl'>{props.projectHeading}</h2>
-            </div>
-            <div className='projectTable'>
-              <table className='w-full text-white text-base'>
-                <tbody className=''>
-                  <tr className=''>
-                    <td className='techHeader pl-3 py-3 text-lg font-bold'>
-                      Technologies
-                    </td>
-                    <td className='text-center'>
-                      <ul className='p-3 '>
-                          {props.listItem}
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div> */}
     </div>
   )
 }
 
 export default WorkHeroCard
 
-{/* <div className='card w-full h-fit lg:w-[75%] xl:w-[50%]'>
-        <div id='heroCard'>
-          <div id='heroMain' className='p-3 py-5 w-full  rounded-md mt-4 text-accent shadow-primary  shadow-md'>
-            <h2 className='text-[5rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
-            <ul className='pb-1'>
-              <li className=' text-lg font-bold text-gray-50  lg:text-2xl'>Skills: <span className='language'></span> </li>
-            </ul>
-            <p className='text-leftpt-2 text-gray-200 lg:text-2xl'>Web developer dedicated to crafting seamless, user-centric digital experiences with a focus on precision and innovation.</p>
-          </div>
-
-        </div>
-      </div> */}

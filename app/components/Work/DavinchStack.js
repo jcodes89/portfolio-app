@@ -1,26 +1,26 @@
 const Davinch = [
     {   
-        id: 1,
+        davinchId: 1,
         tech: 'Html'
     },
     {   
-        id: 2,
+        davinchId: 2,
         tech: 'Css'
     },
     {   
-        id: 3,
+        davinchId: 3,
         tech: 'Javascript'
     },
     {   
-        id: 4,
+        davinchId: 4,
         tech: 'React.js'
     },
     {   
-        id: 5,
+        davinchId: 5,
         tech: 'Next.js'
     },
     {   
-        id: 6,
+        davinchId: 6,
         tech: 'Gsap'
     },
 ]

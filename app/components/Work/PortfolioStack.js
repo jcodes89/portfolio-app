@@ -2,31 +2,31 @@ import React from 'react'
 
 const PortfolioStack = [
     {
-        id: 1,
+        portfolioId: 1,
         tech: 'Html'
     },
     {
-        id: 2,
+        portfolioId: 2,
         tech: 'Css'
     },
     {
-        id: 3,
+        portfolioId: 3,
         tech: 'Tailwind'
     },
     {
-        id: 3,
+        portfolioId: 3,
         tech: 'Javascript'
     },
     {
-        id: 4,
+        portfolioId: 4,
         tech: 'React.js'
     },
     {
-        id: 5,
+        portfolioId: 5,
         tech: 'Next.js'
     },
     {
-        id: 6,
+        portfolioId: 6,
         tech: 'Gsap'
     },
     
