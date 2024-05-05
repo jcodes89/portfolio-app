@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
 
 
+
 const titillium = Titillium_Web({weight: '400', subsets: ["latin"] });
 
 export const metadata = {
@@ -15,7 +16,7 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${titillium.className} h-screen w-full`}>
-      <span className='h-screen w-full bg-hero-pattern bg-cover bg-center absolute z-0'/>
+      {/* <span className='h-screen w-full bg-hero-pattern bg-cover bg-center'/> */}
         <Navbar/>
         <TopBtn/>
         {children}
