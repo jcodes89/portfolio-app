@@ -2,6 +2,8 @@ import { Inter, Roboto, Montserrat, Titillium_Web } from "next/font/google";
 import TopBtn from '@/app/components/BackToTopBtn'
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 
 
@@ -26,7 +28,10 @@ export default function RootLayout({ children }) {
       <span className='h-screen w-full bg-hero-pattern bg-cover bg-center absolute z-0'/>
         <Navbar/>
         <TopBtn/>
-        {children}
+        <Suspense fallback ={<Loading/>}>
+          {children}
+
+        </Suspense>
       </body>
     </html>
   );
