@@ -28,10 +28,7 @@ export default function RootLayout({ children }) {
       <span className='h-screen w-full bg-hero-pattern bg-cover bg-center absolute z-0'/>
         <Navbar/>
         <TopBtn/>
-        <Suspense fallback ={<Loading/>}>
-          {children}
-
-        </Suspense>
+        {children}
       </body>
     </html>
   );
