@@ -43,7 +43,7 @@ const Navbar = () => {
                     <Link href='/resume' className='my-1 hover:bg-accent hover:text-primary text-lg text-center'>Resume</Link>
                   </li>
                   <li>
-                    <Link href='https://www.linkedin.com/in/jeremy-sluder-0077b099/' target='_blank' className='my-1 hover:bg-accent hover:text-primary'><i className="fa-brands fa-linkedin text-3xl"></i></Link>
+                    <Link href='https://www.linkedin.com/in/jeremy-sluder/' target='_blank' className='my-1 hover:bg-accent hover:text-primary'><i className="fa-brands fa-linkedin text-3xl"></i></Link>
                   </li>
                   <li>
                     <Link href='https://github.com/jcodes89' target='_blank' className='hover:bg-accent hover:text-primary'><i className="fa-brands fa-github text-3xl"></i></Link>
