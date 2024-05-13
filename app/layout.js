@@ -15,8 +15,8 @@ export const metadata = {
 export default async function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${titillium.className} h-screen w-full`}>
-      {/* <span className='h-screen w-full bg-hero-pattern bg-cover bg-center'/> */}
+      <body className={`${titillium.className} h-screen w-full bg-primary`}>
+      {/* <span className='h-screen w-full bg-hero-pattern bg-cover bg-center'/>  */}
         <Navbar/>
         <TopBtn/>
         {children}

@@ -1,5 +1,7 @@
 'use client'
 import { useState, useEffect } from "react"
+import { FaArrowUpFromBracket } from "react-icons/fa6";
+
 
 const ScrollTopBtn = () => {
     const [visible, setVisible] = useState(false)
@@ -26,8 +28,8 @@ const ScrollTopBtn = () => {
   
 
   return (
-    <button onClick={scrollTop} className={ visible ? `z-50 fixed btn  bottom-0 m-2 bg-gray-50 hover:bg-accent text-accent hover:scale-[1.15] hover:text-gray-50` : `hidden`}>
-        <i className="fa-solid fa-arrow-up-from-bracket scale-[1.5]"></i>
+    <button onClick={scrollTop} className={ visible ? `z-50 fixed btn  bottom-[8rem] m-2 bg-gray-50 hover:bg-accent text-accent hover:scale-[1.15] hover:text-gray-50` : `hidden`}>
+        <FaArrowUpFromBracket className="fa-solid fa-arrow-up-from-bracket scale-[1.5]"/>
     </button>
   )
 }

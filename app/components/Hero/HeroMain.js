@@ -1,5 +1,5 @@
 'use client'
-import React, {useRef} from 'react'
+import React, {lazy, useRef} from 'react'
 import gsap from 'gsap/gsap-core';
 import { useGSAP } from "@gsap/react";
 import { TextPlugin } from "gsap/TextPlugin";
@@ -21,10 +21,10 @@ const HeroMain = () => {
     //gsap animation for each of the language stack to appear
     stacks.forEach((stack) => {
       tl.to('.language', {
-        duration: 1,
+        duration: 1.5,
         stagger: 1,
         ease: 'none',
-        delay:2.5,
+        delay:1.5,
         text: {
           value: stack,
           newClass: 'newLanguage',
@@ -68,7 +68,7 @@ const HeroMain = () => {
       <div className=' card h-fit w-full lg:w-[75%] xl:w-[50%]'>
         <div id='heroCard' className={`${styles.HeroCard} mx-3`}>
           <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md mt-4 text-accent'>
-            <h2 className='text-[4rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
+            <h2 onLoad={lazy} className='text-[4rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
               <ul className='pb-1'>
                 <li className=' text-lg font-bold text-gray-50  lg:text-2xl'> <span className='language'></span> </li>
               </ul>
