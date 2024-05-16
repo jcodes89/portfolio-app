@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 const Dropdown = () => {
   return (
     <>
-    <details className="dropdown dropdown-hover dropdown-bottom dropdown-end md:hidden">
+    <details className="dropdown dropdown-hover dropdown-bottom dropdown-end md:hidden h-full">
         <summary className="m-1 btn hover:bg-white active:bg-white focus:outline-none  scale-75 "><SlMenu className=" scale-150 focus:rotate-90 after::rotate-90  fa-solid fa-bars cursor-pointer  "></SlMenu></summary>
         <ul tabIndex="0" className="dropdown-content z-[1] menu p-2 shadow-md shadow-primary border-gray-50 bg-primary rounded-box w-18 flex items-center">
           <li>

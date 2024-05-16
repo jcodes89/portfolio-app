@@ -56,7 +56,7 @@ const ProjectMain = (props) => {
   }, {scope: container})
 
   return (
-    <main ref={container}  className=' h-fit w-full absolute bg-accent top-14 px-2 lg:px-4 xl:px-6 lg:mt-4 text-white'>
+    <main ref={container}  className=' h-fit w-full absolute bg-primary top-14 px-2 lg:px-4 xl:px-6 lg:mt-4 text-white'>
       <div  className='project grid grid-cols-1 lg:grid-cols-2'>
       <section className='projectHeroImage h-full flex justify-center items-center mx-4 '>
         <div id='projectImg' className={styles.projectImage}>
