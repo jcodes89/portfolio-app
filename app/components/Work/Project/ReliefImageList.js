@@ -1,13 +1,13 @@
-import img1 from '@/public/images/reliefmain.png'
-import img2 from '@/public/images/reliefsub.png'
-import img3 from '@/public/images/reliefsub2.png'
-import img4 from '@/public/images/reliefregister.png'
-import img5 from '@/public/images/relieflogin.png'
-import img6 from '@/public/images/reliefoauth.png'
-import img7 from '@/public/images/reliefadmindash.png'
-import img8 from '@/public/images/reliefadminupdate.png'
-import img9 from '@/public/images/reliefadminvolunteers.png'
-import img10 from '@/public/images/reliefvol.png'
+import img1 from '@/public/images/reliefmain.webp'
+import img2 from '@/public/images/reliefsub.webp'
+import img3 from '@/public/images/reliefsub2.webp'
+import img4 from '@/public/images/reliefregister.webp'
+import img5 from '@/public/images/relieflogin.webp'
+import img6 from '@/public/images/reliefoauth.webp'
+import img7 from '@/public/images/reliefadmindash.webp'
+import img8 from '@/public/images/reliefadminupdate.webp'
+import img9 from '@/public/images/reliefadminvolunteers.webp'
+import img10 from '@/public/images/reliefvol.webp'
 
 
 

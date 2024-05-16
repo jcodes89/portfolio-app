@@ -1,10 +1,10 @@
-import img1 from '@/public/images/portmain.png'
-import img2 from '@/public/images/portproject.png'
-import img3 from '@/public/images/portproject2.png'
-import img4 from '@/public/images/portprojectmain.png'
-import img5 from '@/public/images/portcontact.png'
-import img6 from '@/public/images/portabout.png'
-import img7 from '@/public/images/portaboutsub.png'
+import img1 from '@/public/images/portmain.webp'
+import img2 from '@/public/images/portproject.webp'
+import img3 from '@/public/images/portproject2.webp'
+import img4 from '@/public/images/portprojectmain.webp'
+import img5 from '@/public/images/portcontact.webp'
+import img6 from '@/public/images/portabout.webp'
+import img7 from '@/public/images/portaboutsub.webp'
 
 
 const PortfolioImageList = [

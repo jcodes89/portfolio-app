@@ -60,7 +60,7 @@ const ProjectMain = (props) => {
       <div  className='project grid grid-cols-1 lg:grid-cols-2'>
       <section className='projectHeroImage h-full flex justify-center items-center mx-4 '>
         <div id='projectImg' className={styles.projectImage}>
-          <Image className='mx-0 mt-4 shadow-md h-full' src={props.projectImage} alt='image of project website'/>
+          <Image className='mx-0 mt-4 shadow-md h-full ' src={props.projectImage} alt='image of project website'/>
         </div>
       </section>
       <section id='projectHeroSection' className={`${styles.projectHero} m-4`}>

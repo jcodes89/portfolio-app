@@ -20,7 +20,6 @@ export default async function RootLayout({ children }) {
         <Navbar/>
         <TopBtn/>
         {children}
-       
       </body>
     </html>
   );

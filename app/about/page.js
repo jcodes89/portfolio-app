@@ -1,7 +1,7 @@
 'use client'
 import React, {useRef as UseRef} from 'react'
 import Image from 'next/image'
-import img from '@/public/images/profile2.jpg'
+import img from '@/public/images/profile2.webp'
 import { useGSAP as UseGSAP } from '@gsap/react'
 import gsap from 'gsap/gsap-core'
 import ScrollTrigger from 'gsap/ScrollTrigger'
@@ -35,9 +35,7 @@ const page = () => {
       bounds: '.techContainer'
       
     })
-   
-   
-    
+
   }, {scope: container})
 
   return (

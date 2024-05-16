@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import portfolioMain from '@/public/images/portfolio.jpg'
+import portfolioMain from '@/public/images/portmain.webp'
 import ProjectMain from '@/app/components/Work/Project/ProjectMain'
 import Portfolio from '@/app/components/Work/PortfolioStack'
 import PortfolioImages from '../../components/Work/Project/PortfolioImageList'
@@ -22,7 +22,7 @@ const page = () => {
       projectImages={PortfolioImages.map((img) => {
         return(
           <div key={img.id} className='my-6'>
-            <Image src={img.src} alt='screenshot of Relief Web App' className='h-auto'/>
+            <Image src={img.src} alt='screenshot of Relief Web App' className='h-auto border-[2px] rounded-md'/>
           </div>
           
         )

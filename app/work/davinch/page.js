@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import davinchMain from '@/public/images/main.jpg'
+import davinchMain from '@/public/images/main.webp'
 import ProjectMain from '@/app/components/Work/Project/ProjectMain'
 import Davinch from '@/app/components/Work/DavinchStack'
 import DavinchImages from '../../components/Work/Project/DavinchImageList'
@@ -26,7 +26,7 @@ const page = () => {
       projectImages={DavinchImages.map((img) => {
         return(
           <div key={img.id} className='my-6'>
-            <Image src={img.src} alt='screenshot of Davinch Leather Website' className='h-auto'/>
+            <Image src={img.src} alt='screenshot of Davinch Leather Website' className='h-auto border-[2px] rounded-md'/>
           </div>
           
         )

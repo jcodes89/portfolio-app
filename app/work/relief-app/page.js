@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import reliefMain from '@/public/images/relief.jpg'
+import reliefMain from '@/public/images/relief.webp'
 import ProjectMain from '@/app/components/Work/Project/ProjectMain'
 import Relief from '@/app/components/Work/ReliefStack'
 import ReliefImages from '../../components/Work/Project/ReliefImageList'
@@ -22,7 +22,7 @@ const page = () => {
       projectImages={ReliefImages.map((img) => {
         return(
           <div key={img.id} className='my-6'>
-            <Image src={img.src} alt='screenshot of Relief Web App' className='h-auto'/>
+            <Image src={img.src} alt='screenshot of Relief Web App' className=' border-[2px] rounded-md h-auto '/>
           </div>
           
         )
