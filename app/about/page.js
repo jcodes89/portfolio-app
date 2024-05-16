@@ -20,12 +20,13 @@ const page = () => {
     tl.to('#aboutHead', {
       display: 'block',
       visibility: 'visible',
+      delay:0,
       duration: 2,
       ease: 'expo',
-      stagger:2
+      stagger:2,
     })
     .to('#aboutImg', {
-      delay:2,
+      delay:0,
       ease: 'expo'
     })
 
@@ -40,7 +41,7 @@ const page = () => {
 
   return (
     <>
-    <span className='h-screen w-full bg-[url("../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.jpg")] bg-cover bg-center absolute z-10'/>
+    <span className='h-screen w-full bg-[url("../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.webp")] bg-cover bg-center absolute z-10'/>
     <span  ref={container}>
     <main className='relative z-30 w-full h-full px-4  flex flex-col  text-center top-16 lg:top-1/3 lg:px-4  text-gray-50 lg:grid lg:grid-rows-2 lg:grid-cols-2 lg:gap-4'>
       <div  className={` flex flex-col justify-center items-center  pb-4  mx-3  `}>
@@ -54,7 +55,7 @@ const page = () => {
       </div>
 
       <div className=' flex justify-center lg:items-center  p-3'>
-        <Image src={img} alt='image of Jeremy' id='aboutImg' className={`${styles.aboutImage} h-full md:h-2/3 lg:h-auto lg:w-full 2xl:h-[200%] 2xl:w-auto  w-auto rounded-md shadow-md shadow-primary `}/>
+        <Image loading='lazy' src={img} alt='image of Jeremy' id='aboutImg' className={`${styles.aboutImage} h-full md:h-2/3 lg:h-auto lg:w-full 2xl:h-[200%] 2xl:w-auto  w-auto rounded-md shadow-md shadow-primary `}/>
       </div>
     </main>
     <section className='relative z-30  bg-gray-50 h-fit w-full pt-10 '>
@@ -70,7 +71,7 @@ const page = () => {
           </p>
         </div>
       </div>
-      <div className={`relative z-30 text-gray-50 bg-accent  text-center lg:flex lg:flex-col py-4 `}>
+      <div className={`relative z-30 text-gray-50 bg-secondary  text-center lg:flex lg:flex-col py-4 `}>
         <div    className={``}>
           <h5 className='text-xl font-bold pb-4'>
             When I am not coding
@@ -94,47 +95,47 @@ const page = () => {
 
     </section>
     <section className='hfit w-full  text-center bg-primary py-4 overflow-x-hidden overflow-y-hidden'>
-      <div className='flex flex-col justify-center items-center text-accent'>
+      <div className='flex flex-col justify-center items-center text-gray-50'>
         <p className='lg:hidden text-xl flex  items-center '><MdSwipeRight/><span className='text-sm'>Swipe Right</span></p>
         <h6 className='font-bold text-xl py-2'>Technologies</h6>
       </div>
       {/*mobile version will be able to swipe left or right to view the tech stack*/}
-      <div className='lg:hidden techContainer flex flex-row  py-4 text-6xl text-accent w-full h-fit relative z-30'>
+      <div className='lg:hidden techContainer flex flex-row  py-4 text-6xl text-gray-50 w-full h-fit relative z-30'>
         <div className='techItems flex flex-row justify-start  cursor-pointer'>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiHtml5/><span className='text-base'>Html</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiCss3/><span className='text-base'>Css</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiBootstrap/><span className='text-base'>Bootstrap</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiTailwindcss/><span className='text-base'>Tailwind</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiJavascript/><span className='text-base'>Javascript</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiReact/><span className='text-base'>React</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiNextdotjs/><span className='text-base'>Next.js</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiNodedotjs/><span className='text-base'>Node.js</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiExpress/><span className='text-base'>Express.js</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiMongodb/><span className='text-base'>MongoDB</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiMongoose/><span className='text-base'>Mongoose</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiGit/><span className='text-base'>Git</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiGithub/><span className='text-base'>Github</span></div>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-gray-50'><SiPostman/><span className='text-base'>Postman</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiHtml5/><span className='text-base'>Html</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiCss3/><span className='text-base'>Css</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiBootstrap/><span className='text-base'>Bootstrap</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiTailwindcss/><span className='text-base'>Tailwind</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiJavascript/><span className='text-base'>Javascript</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiReact/><span className='text-base'>React</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiNextdotjs/><span className='text-base'>Next.js</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiNodedotjs/><span className='text-base'>Node.js</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiExpress/><span className='text-base'>Express.js</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiMongodb/><span className='text-base'>MongoDB</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiMongoose/><span className='text-base'>Mongoose</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiGit/><span className='text-base'>Git</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiGithub/><span className='text-base'>Github</span></div>
+          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiPostman/><span className='text-base'>Postman</span></div>
 
         </div>
         
       </div>
-      <div className=' hidden techContainer lg:flex flex-row justify-center  py-4 text-6xl text-accent w-full h-fit'>
+      <div className=' hidden techContainer lg:flex flex-row justify-center  py-4 text-6xl text-gray-50 w-full h-fit'>
         <div className=' flex flex-row  cursor-pointer'>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiHtml5/><span className='text-base'>Html</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiCss3/><span className='text-base'>Css</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiBootstrap/><span className='text-base'>Bootstrap</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiTailwindcss/><span className='text-base'>Tailwind</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiJavascript/><span className='text-base'>Javascript</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiReact/><span className='text-base'>React</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiNextdotjs/><span className='text-base'>Next.js</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiNodedotjs/><span className='text-base'>Node.js</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiExpress/><span className='text-base'>Express.js</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiMongodb/><span className='text-base'>MongoDB</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiMongoose/><span className='text-base'>Mongoose</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiGit/><span className='text-base'>Git</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiGithub/><span className='text-base'>Github</span></div>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-gray-50'><SiPostman/><span className='text-base'>Postman</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiHtml5/><span className='text-base'>Html</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiCss3/><span className='text-base'>Css</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiBootstrap/><span className='text-base'>Bootstrap</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiTailwindcss/><span className='text-base'>Tailwind</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiJavascript/><span className='text-base'>Javascript</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiReact/><span className='text-base'>React</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiNextdotjs/><span className='text-base'>Next.js</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiNodedotjs/><span className='text-base'>Node.js</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiExpress/><span className='text-base'>Express.js</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiMongodb/><span className='text-base'>MongoDB</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiMongoose/><span className='text-base'>Mongoose</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiGit/><span className='text-base'>Git</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiGithub/><span className='text-base'>Github</span></div>
+          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiPostman/><span className='text-base'>Postman</span></div>
 
         </div>
         
