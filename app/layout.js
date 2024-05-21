@@ -15,7 +15,7 @@ export default async function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={`${titillium.className} h-screen w-full bg-hero-pattern `}>
+      <body className={`${titillium.className} h-screen w-full bg-hero-pattern bg-cover `}>
         <Navbar/>
         <TopBtn/>
         {children}
