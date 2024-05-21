@@ -82,7 +82,7 @@ const page = () => {
             When I am not coding
           </h5>
         <div className=''>
-          <ul className='text-lg lg:my-4'>
+          <ul className='text-lg lg:py-6'>
             <li>Spending Time With My Wife</li>
             <li>Longboarding</li>
             <li>Leather Working</li>
