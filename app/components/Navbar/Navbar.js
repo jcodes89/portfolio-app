@@ -9,6 +9,8 @@ const titilliumBold = Titillium_Web({weight: ['900'], subsets: ["latin"] });
 import Dropdown from './Dropdown';
 
 
+
+
 const Navbar = () => {
 
   return (
@@ -41,7 +43,7 @@ const Navbar = () => {
                       <Link href='/about' className={styles.linked}>About</Link>
                     </li>
                     <li className='pl-2 pr-3 hover:text-gray-50'>
-                      <Link href='/resume' className={styles.linked}>Resume</Link>
+                      <Link href='/resume' target='_blank'  className={styles.linked}>Resume</Link>
                     </li>
                     <li className='pb-0'>
                       <Link href='https://www.linkedin.com/in/jeremy-sluder-0077b099/'  aria-label="LinkedIn Tab that takes user to linkedin profile" target='_blank' className={styles.linked}><FaLinkedin className="text-3xl  hover:text-gray-50 2xl:text-3xl"></FaLinkedin></Link>

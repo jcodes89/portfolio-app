@@ -36,7 +36,7 @@ const page = () => {
           <div>
             <ul className='text-2xl 2xl:text-4xl pt-2'>
               <li  className='py-4'>
-                Email: <Link id='contactEmail' href={'mailto:jeremy.sluder@gmail.com'} target='_blank' type='email' className={`contact btn-link  font-bold hover:text-gray-50 ${styles.email}`}>Jeremy.Sluder@gmail.com</Link>
+                Email: <Link id='contactEmail' href='mailto:jeremydev89@gmail.com' target='_blank' type='email' className={`contact btn-link  font-bold hover:text-gray-50 ${styles.email}`}>JeremyDev89@gmail.com</Link>
               </li>
               <li id='contactLinked' className='py-4'>
                 <Link href={'https://www.linkedin.com/in/jeremy-sluder-0077b099/'} target='_blank' className={`${styles.linked} contact  btn-link  font-bold hover:text-gray-50 `}>LinkedIn</Link>

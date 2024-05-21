@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const resumePage = () => {
   return (
-    <>
-      
-    </>
+    <div className='h-screen w-auto' >
+        <iframe src='/resume.pdf'  className='h-full  w-full pt-16 '/>
+    </div>
   )
 }
 
-export default page
+export default resumePage

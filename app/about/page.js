@@ -49,7 +49,7 @@ const page = () => {
           <h2 className='font-bold text-4xl lg:text-5xl'>About Me</h2>
         </div>
         <div id='aboutHead' className={`${styles.aboutHeader} aboutText text-left  p-4 rounded-md shadow-md shadow-primary `}>
-          <h3 className={` text-2xl  lg:text-2xl py-3`}>I am a <span className='font-bold text-accent'>Web Developer</span> based in Florida</h3>
+          <h3 className={` text-2xl  lg:text-2xl py-3`}>I am a <span className='font-bold text-accent'>Web Developer</span> based in Tampa, Florida</h3>
           <p className='text-lg md:text-lg lg:text-xl'>I created my first web site in 2021 and fell in love with the process.  I enjoy creating lasting unique experiences and continuing to gain knowledge and experience as a Web Developer.  </p>
         </div>
       </div>
@@ -63,7 +63,12 @@ const page = () => {
         <div className={` text-lg  text-center lg:w-1/2 `}>
           <h4 className='text-xl font-bold pb-4'>My Story</h4>
           <p className='text-left'>
-            In 2021, I began my journey as a web developer with the aim of creating a website for my leather business. I wanted a site that was easy to use and update but also visually appealing to my target audience. While using Square Space, I found that the platform did not provide the simplicity I was looking for in a website. As I did not require an e-commerce website, my main goal was to showcase my work and explain the process of creating bespoke leather goods. This inspired me to learn more about web development through online courses on Udemy and other platforms.
+            In 2021, I began my journey as a web developer.  I was getting into cryptocurrency and was fascinated with the technology.  I started to look into how to become a blockchain developer.  
+            I quickly dove into learning HTML and CSS. I fell in love with the process of creating something from scratch. 
+            I began to teach myself technologies on the front end since I also had a leather working business and wanted to create a simple website for my business. 
+            My facination with cryptocurrency subsided, my love for web development amplified over the years.  Web development has always been something I enjoyed since I started.
+            I continued to grow my skills in front-end development and started learning back-end development.  I have a passion for learning and enjoy creating beautiful websites and web applications for users.  
+            I look forward to what the future holds for me as a web developer and increasing my knowledge to provide a better experience for the end user.
           </p>
           <br/>
           <p className='text-left pb-4'>
@@ -78,7 +83,7 @@ const page = () => {
           </h5>
         <div className=''>
           <ul className='text-lg'>
-            <li>Hanging with the Wife</li>
+            <li>Spending Time With My Wife</li>
             <li>Longboarding</li>
             <li>Leather Working</li>
             <li>Knife Making</li>
@@ -86,7 +91,8 @@ const page = () => {
             <li>Gameboy Restoration</li>
             <li>Working Out</li>
             <li>Paddle Boarding</li>
-            <li>Fishing</li>
+            <li>Backpacking Trips</li>
+            <li>Fly Fishing</li>
           </ul>
         </div>
 

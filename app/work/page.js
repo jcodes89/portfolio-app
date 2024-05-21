@@ -42,7 +42,7 @@ const page = () => {
       </span>
       <WorkHeroCard
         projectLink='my-portfolio'
-        githubLink='Portfolio-V2'
+        githubLink='Portfolio-app'
         projectImage={portfolio}
         projectHeading='JeremyDev Portfolio'
         listItem={PortfolioStack.map((item) => {
