@@ -82,7 +82,7 @@ const page = () => {
             When I am not coding
           </h5>
         <div className=''>
-          <ul className='text-lg lg:py-6'>
+          <ul className='text-lg'>
             <li>Spending Time With My Wife</li>
             <li>Longboarding</li>
             <li>Leather Working</li>
@@ -108,7 +108,7 @@ const page = () => {
       {/*mobile version will be able to swipe left or right to view the tech stack*/}
       <div className='lg:hidden techContainer flex flex-row  py-4 text-6xl text-gray-50 w-full h-fit relative z-30'>
         <div className='techItems flex flex-row justify-start  cursor-pointer'>
-          <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiHtml5/><span className='text-base'>Html</span></div>
+          <div className='px-4 justify-center items-center flex flex-col hover:text-accent'><SiHtml5/><span className='text-base'>Html</span></div>
           <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiCss3/><span className='text-base'>Css</span></div>
           <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiBootstrap/><span className='text-base'>Bootstrap</span></div>
           <div className='px-2 justify-center items-center flex flex-col hover:text-accent'><SiTailwindcss/><span className='text-base'>Tailwind</span></div>
@@ -128,7 +128,7 @@ const page = () => {
       </div>
       <div className=' hidden techContainer lg:flex flex-row justify-center  py-4 text-6xl text-gray-50 w-full h-fit'>
         <div className=' flex flex-row  cursor-pointer'>
-          <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiHtml5/><span className='text-base'>Html</span></div>
+          <div className='lg:pl-24 px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiHtml5/><span className='text-base'>Html</span></div>
           <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiCss3/><span className='text-base'>Css</span></div>
           <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiBootstrap/><span className='text-base'>Bootstrap</span></div>
           <div className='px-2 justify-center items-center flex flex-col techItem hover:text-accent'><SiTailwindcss/><span className='text-base'>Tailwind</span></div>
