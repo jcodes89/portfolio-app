@@ -3,7 +3,7 @@ export default function robots() {
       rules: {
         userAgent: '*',
         allow: '/',
-        disallow: ["/contact", "/resume"]
+        disallow: ["/contact", "/resume", "/cdn-cgi"]
       },
       sitemap: 'https://jeremydev.codes/sitemap.xml',
     }

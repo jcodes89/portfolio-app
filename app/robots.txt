@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: [/contact, /resume]
-
-Sitemap: 'https://jeremydev.codes/sitemap.xml'
