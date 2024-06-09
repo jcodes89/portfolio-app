@@ -2,7 +2,7 @@
 
 #Block all crawlers for /contact & /resume
 User-agent: *
-Disallow: {/contact, /resume}
+Disallow: /contact
 
 # Allow all crawlers
 User-agent: *
