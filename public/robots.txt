@@ -1,0 +1,9 @@
+//robots.txt
+
+#Block all crawlers for /contact & /resume
+User-agent: *
+Disallow: {/contact, /resume}
+
+# Allow all crawlers
+User-agent: *
+Allow: /
