@@ -1,4 +1,4 @@
-
+Open [https://jeremydev.codes/](https://jeremydev.codes/) with your browser to see the result.
 
 # Web Developer Portfolio Showcase
 
