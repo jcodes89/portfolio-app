@@ -41,7 +41,6 @@ const page = () => {
 
   return (
     <>
-    <span className='h-screen w-full bg-[url("../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.webp")] bg-cover bg-center absolute z-10'/>
     <span  ref={container}>
     <main className='relative z-30 w-full h-full px-4  flex flex-col  text-center top-16 lg:top-1/3 lg:px-4  text-gray-50 lg:grid lg:grid-rows-2 lg:grid-cols-2 lg:gap-4'>
       <div  className={` flex flex-col justify-center items-center  pb-4  mx-3  `}>

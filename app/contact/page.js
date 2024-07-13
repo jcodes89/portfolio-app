@@ -25,9 +25,6 @@ const page = () => {
   }, {scope: container})
   return (
     <>
-    
-    <span className='h-screen w-full bg-[url("../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.webp")] bg-cover bg-center absolute z-10'/>
-
       <main ref={container} className=' h-screen w-full text-gray-50 flex flex-col justify-center  '>
         <div className='contactContainer relative z-30  text-center'>
           <div className='contactHead'>

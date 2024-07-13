@@ -34,8 +34,7 @@ const page = () => {
 
   return (
     <>
-    <span className='h-[130vh] lg:h-[180vh] xl:h-[130vh]   w-full bg-[url("../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.webp")] bg-cover bg-center absolute z-0'/>
-    <main ref={container} className='w-auto h-fit relative top-16 grid grid-cols-1 place-items-center xl:grid-cols-2 xl:gap-3 px-4'>
+    <main ref={container} className='w-auto h-full pt-16  top-16 min-[700px]:pt-14 grid grid-cols-1 place-items-center min-[700px]:grid-cols-2 min-[700px]:gap-3 px-4'>
       <span className=' z-20 h-fit pt-5'>
         <p className='parClick text-white lg:hidden'>Please click any project to learn more!</p>
         <p className='parHover hidden text-white lg:flex'>Please hover over any project to learn more!</p>
