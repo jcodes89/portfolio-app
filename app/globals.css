@@ -18,13 +18,13 @@
 
 
     body {
-      color: rgb(var(--foreground-rgb));
       background-image: url('../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.webp');
       background-size: cover;
       background-position: top;
       background-attachment: fixed;
       background-repeat: repeat-y;
       min-height: 100vh;
+      background-color: #F08A3D;
       width: auto;
     }
   
