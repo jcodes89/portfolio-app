@@ -65,7 +65,7 @@ const HeroMain = () => {
   return (
     <>
     <section ref={container} className=' w-full h-screen flex justify-center items-center absolute z-20 overflow-y-hidden'>
-      <div className=' card h-fit w-full lg:w-[75%] xl:w-[75%]'>
+      <div className=' card h-fit w-full lg:w-[75%] xl:w-[75%] 2xl:w-[60%]'>
         <div id='heroCard' className={`${styles.HeroCard} mx-3`}>
           <div id='heroMain' className='hidden translate-x-[400px] p-3 py-5 w-full rounded-md mt-4 text-accent'>
             <h2 className='text-[4rem] font-bold lg:text-[7rem] xl:text-[8rem]'>Web Developer</h2>
