@@ -34,7 +34,7 @@ const page = () => {
 
   return (
     <>
-    <main ref={container} className='w-auto h-full pt-16  top-16 min-[700px]:pt-14 grid grid-cols-1 place-items-center min-[700px]:grid-cols-2 min-[700px]:gap-3 px-4'>
+    <main ref={container} className='w-auto  pt-16  top-16 min-[700px]:pt-14 grid grid-cols-1 place-items-center min-[700px]:grid-cols-2 min-[700px]:gap-3 px-4'>
       <span className=' z-20 h-fit pt-5'>
         <p className='parClick text-white lg:hidden'>Please click any project to learn more!</p>
         <p className='parHover hidden text-white lg:flex'>Please hover over any project to learn more!</p>

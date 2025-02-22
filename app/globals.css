@@ -16,8 +16,10 @@
   }
 }
 
-
-    body {
+html, body {
+  overflow-x: hidden;
+}
+body {
       background-image: url('../public/images/pawel-czerwinski-fRzUPSFnp04-unsplash.webp');
       background-size: cover;
       background-position: top;

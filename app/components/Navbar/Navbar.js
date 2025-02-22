@@ -27,7 +27,7 @@ const Navbar = () => {
           </span>
         </div>
       </div>
-      <div className='header-right pr-1'>
+      <div className='header-right pr-1 xl:mr-6'>
         <ul className='flex'>
           <li className=''>
             <Dropdown/>

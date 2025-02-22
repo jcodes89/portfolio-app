@@ -48,7 +48,7 @@ const page = () => {
           <h2 className='font-bold text-4xl lg:text-5xl'>About Me</h2>
         </div>
         <div id='aboutHead' className={`${styles.aboutHeader} aboutText text-left  p-4 rounded-md shadow-md shadow-primary `}>
-          <h3 className={` text-2xl  lg:text-2xl py-3`}>I am a <span className='font-bold text-accent'>Web Developer</span> based in Tampa, Florida</h3>
+          <h3 className={` text-2xl  lg:text-2xl py-3`}>I am a <span className='font-bold text-accent'>Web Developer</span> based in Albemarle, North Carolina</h3>
           <p className='text-lg md:text-lg lg:text-xl'>I created my first web site in 2021 and fell in love with the process.  I enjoy creating lasting unique experiences and continuing to gain knowledge and experience as a Web Developer.  </p>
         </div>
       </div>
@@ -61,17 +61,19 @@ const page = () => {
       <div  className={` relative z-30  text-primary bg-gray-50  pt-0 p-5 w-full lg:flex lg:flex-col lg:items-center`}>
         <div className={` text-lg  text-center lg:w-1/2 `}>
           <h4 className='text-xl font-bold pb-4'>My Story</h4>
-          <p className='text-left'>
+          <p className='text-left pb-2'>
             In 2021, I began my journey as a web developer.  I was getting into cryptocurrency and was fascinated with the technology.  I started to look into how to become a blockchain developer.  
             I quickly dove into learning HTML and CSS. I fell in love with the process of creating something from scratch. 
             I began to teach myself technologies on the front end since I also had a leather working business and wanted to create a simple website for my business. 
-            My facination with cryptocurrency subsided, my love for web development amplified over the years.  Web development has always been something I enjoyed since I started.
+            </p>
+              
+          <p className='text-left pb-2'>My facination with cryptocurrency subsided, my love for web development amplified over the years.  Web development has always been something I enjoyed since I started.
             I continued to grow my skills in front-end development and started learning back-end development.  I have a passion for learning and enjoy creating beautiful websites and web applications for users.  
             I look forward to what the future holds for me as a web developer and increasing my knowledge to provide a better experience for the end user.
           </p>
-          <br/>
+          
           <p className='text-left pb-4'>
-            Looking back, my Davinch Leather website was not anything exceptional, but it ignited a spark within me to create and learn more. Since then, I have been constantly growing and improving my skills as a web developer. Currently, I work as a Paramedic/Firefighter in Tampa, FL, but I am excited to pursue a career in web development.
+            Looking back, my Davinch Leather website was not anything exceptional, but it ignited a spark within me to create and learn more. Since then, I have been constantly growing and improving my skills as a web developer. 
           </p>
         </div>
       </div>
