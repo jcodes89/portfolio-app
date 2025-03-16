@@ -32,7 +32,7 @@ const Navbar = () => {
           <li className=''>
             <Dropdown/>
             <div className=''>
-              <ul className=" hidden md:flex md:flex-row  border-gray-50 text-xl 2xl:text-2xl">
+              <ul className=" hidden md:flex md:flex-row  border-gray-50 text-xl 2xl:text-2xl mr-5 ">
                     <li className='px-2 hover:text-gray-50'>
                       <Link href='/work' className={styles.linked}>Projects</Link>
                     </li>
